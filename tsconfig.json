@@ -1,0 +1,22 @@
+{
+	"extends": "./.svelte-kit/tsconfig.json",
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strict": true,
+		/*
+		TODO: Attempted to get these paths working for easy imports but the TS compiler wasn't playing nice
+		"baseUrl": "lib",
+		"paths": {
+			"$lib/*": ["/*"],
+			"$src/*": ["../src/*"]
+		}
+		*/
+	}
+
+}

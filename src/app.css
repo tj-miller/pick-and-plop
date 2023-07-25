@@ -1,0 +1,4 @@
+/* import the tailwind layers */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
